@@ -1,6 +1,6 @@
 from crontab import CronTab
 
-# Crear objeto crontab para el usuario actual
+# Crear objeto crontab para el usuario actual.
 cron = CronTab(user=True)
 
 # Crear nueva tarea
