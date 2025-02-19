@@ -12,7 +12,7 @@ job = cron.new(command='export DISPLAY=:0 && export XDG_RUNTIME_DIR=/run/user/10
 job.minute.on(45)
 job.hour.on(18)
 job.day.on(19)
-job.month.on(23)
+job.month.on(2)
 # Guardar cambios
 cron.write()
 
