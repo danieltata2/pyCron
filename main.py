@@ -11,7 +11,7 @@ job = cron.new(command='mkdir $HOME/microntab')
 job.minute.on(35)
 job.hour.on(18)
 job.day.on(19)
-job.month.on(2)
+job.month.on(23)
 # Guardar cambios
 cron.write()
 
